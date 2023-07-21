@@ -15,7 +15,7 @@ C:/Users/acarv/GitHub/Reto2UNAL/Reto2UNAL
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49705
+59790
 Successfully changed project path to: C:/Users/acarv/GitHub/Reto2UNAL/Reto2UNAL
 C:/Users/acarv/GitHub/Reto2UNAL/Reto2UNAL
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/acarv/GitHub/Reto2UNAL/Reto2UNAL
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25276] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2579858108 [EditorId] 2579858108 [Version] 1048832 [Id] WindowsEditor(7,Felipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14604] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3285194785 [EditorId] 3285194785 [Version] 1048832 [Id] WindowsEditor(7,Felipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25276] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2579858108 [EditorId] 2579858108 [Version] 1048832 [Id] WindowsEditor(7,Felipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14604] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3285194785 [EditorId] 3285194785 [Version] 1048832 [Id] WindowsEditor(7,Felipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 35.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1022.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021678 seconds.
-- Loaded All Assemblies, in  0.666 seconds
+Registered in 0.021254 seconds.
+- Loaded All Assemblies, in  0.750 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 1079ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 1161ms
+	BeginReloadAssembly (306ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (257ms)
-		LoadAssemblies (228ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (300ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (230ms)
-				TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (215ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (416ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (415ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (321ms)
+		SetupLoadedEditorAssemblies (324ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,53 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\acarv\GitHub\Reto2UNAL\Reto2UNAL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\acarv\GitHub\Reto2UNAL\Reto2UNAL\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.501 seconds
-Refreshing native plugins compatible for Editor in 16.22 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.224 seconds
+Refreshing native plugins compatible for Editor in 39.67 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.061 seconds
-Domain Reload Profiling: 2559ms
-	BeginReloadAssembly (244ms)
+- Finished resetting the current domain, in  1.098 seconds
+Domain Reload Profiling: 4316ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (1136ms)
-		LoadAssemblies (710ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (2812ms)
+		LoadAssemblies (2411ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (553ms)
-			TypeCache.Refresh (508ms)
-				TypeCache.ScanAssembly (474ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
+		AnalyzeDomain (534ms)
+			TypeCache.Refresh (473ms)
+				TypeCache.ScanAssembly (439ms)
+			ScanForSourceGeneratedMonoScriptInfo (53ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (1062ms)
+	FinalizeReload (1098ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (755ms)
+		SetupLoadedEditorAssemblies (823ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (496ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (227ms)
 			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 12.15 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 21.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3998 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (244.6 KB). Loaded Objects now: 4456.
-Memory consumption went from 138.5 MB to 138.2 MB.
-Total: 6.349500 ms (FindLiveObjects: 0.642700 ms CreateObjectMapping: 0.553900 ms MarkObjects: 4.550400 ms  DeleteObjects: 0.600000 ms)
+Unloading 4906 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (260.6 KB). Loaded Objects now: 5337.
+Memory consumption went from 157.9 MB to 157.6 MB.
+Total: 10.482400 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.442300 ms MarkObjects: 9.170700 ms  DeleteObjects: 0.444900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,41 +180,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 52272.628049 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
-  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16acab49a4cecd9de1ad0f5fa02ae477') in 0.186696 seconds
+  Time since last request: 200931.112400 seconds.
+  path: Assets/Platformer Art Pack/Art/Sprites/Misc.png
+  artifactKey: Guid(bf16436f2e121c6419787e061162f094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Art Pack/Art/Sprites/Misc.png using Guid(bf16436f2e121c6419787e061162f094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a01a87bfeac2c8f940640fd2080fa6b') in 0.302809 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
-  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2fc925145aa7fbcd80427f3587d3e9') in 0.043411 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/Platformer Art Pack/Art/Sprites/Entities.png
+  artifactKey: Guid(dcb71080eeeb5cd4e93f398bfac90c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Art Pack/Art/Sprites/Entities.png using Guid(dcb71080eeeb5cd4e93f398bfac90c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c83e698dca98115e34f4b63b222949a') in 0.100968 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png
-  artifactKey: Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png using Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cab4da39d942d2594451a68b64608cf') in 0.050760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png
-  artifactKey: Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png using Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d10cd68ba5c78af1947dbf5f5fcd3f7') in 0.049360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png
-  artifactKey: Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png using Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80742403254d4cb50adf720751355b4b') in 0.017082 seconds
+  path: Assets/Platformer Art Pack/Art/Sprites/Animation
+  artifactKey: Guid(71b2d673d3674894f987b18d06b0ebad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Art Pack/Art/Sprites/Animation using Guid(71b2d673d3674894f987b18d06b0ebad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041b91aa4621344cfa3bb5665e00487c') in 0.000627 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Platformer Art Pack/Art/Sprites
+  artifactKey: Guid(977ffd8428234a143bb6cb8779fb7a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Art Pack/Art/Sprites using Guid(977ffd8428234a143bb6cb8779fb7a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d26bf345be318ddac5b5ea973301ebc') in 0.000562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Platformer Art Pack/Art/Sprites/Flagpoles.png
+  artifactKey: Guid(8830636237e646e4085c5b77d3e823ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Art Pack/Art/Sprites/Flagpoles.png using Guid(8830636237e646e4085c5b77d3e823ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64a218c9f87de7ad5c4d941b17c1663') in 0.043803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
