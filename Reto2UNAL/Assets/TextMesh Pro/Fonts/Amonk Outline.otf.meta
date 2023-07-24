@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: ddd2ff3f7f9e16340ad58eb8e0a9bf0d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Amonk
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 507ddbc4669a19f478aa3a798f970873, type: 3}
+  - {fileID: 12800000, guid: 0992271e1787ada419f0b1235a4e4d26, type: 3}
+  - {fileID: 12800000, guid: 25c6fa5710cac764489d41655c2ba524, type: 3}
+  - {fileID: 12800000, guid: 49087ef71d3b5074092ba48afe4553f9, type: 3}
+  - {fileID: 12800000, guid: b041bf9846d15b24f81aeefc4eb69721, type: 3}
+  - {fileID: 12800000, guid: 857e4fb792ea7ae4fba58627b69e7d1c, type: 3}
+  - {fileID: 12800000, guid: 8ca9d4bef9b5eab4ba3b0bac91a156b8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
